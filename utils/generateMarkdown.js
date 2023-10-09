@@ -3,12 +3,12 @@ const renderLicenseBadge = (license) => {
   if(license !== "None") {
     return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
-  return ''
+  return '';
 }
 
 const renderLicenseLink = () => {
   if(license !== "None") {
-    return `* [License](#License)\n`
+    return `[License](#License)\n`
   }
   return '';
 }
